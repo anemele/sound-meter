@@ -1,0 +1,18 @@
+package com.js.soundmeter.ui.base
+
+import android.content.Context
+import androidx.fragment.app.Fragment
+
+abstract class BaseFragment : Fragment() {
+    lateinit var mContext: Context
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        mContext = context
+    }
+
+    open fun onKeyBackPressed(): Boolean {
+        // 是否消耗掉back事件
+        return false
+    }
+}

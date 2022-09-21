@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">声频计</string>
+    <string name="db_meter">声强测量</string>
+    <string name="hz_meter">频率测量</string>
+
+    <string-array name="db_explain_arr">
+        <item>  0dB：人类可听见的最小声音。</item>
+        <item> 10dB：正常呼吸，风吹落叶沙沙声。</item>
+        <item> 20dB：1米内窃窃私语，乡村的夜晚。</item>
+        <item> 30dB：安静的图书馆、轻声细谈</item>
+        <item> 40dB：安静的办公室、远离路况的卧室。</item>
+        <item> 50dB：近距离的轻微路况、冰箱、微风</item>
+        <item> 60dB：室内大声说话、老师讲课声。</item>
+        <item> 70dB：繁忙的交通、吵闹的餐厅。</item>
+        <item> 80dB：繁忙的街道，闹钟铃声，工厂吵杂声</item>
+        <item> 90dB：嘈杂的酒吧、铲车、雪地摩托车声。</item>
+        <item>100dB：拖拉机启动、气压钻机声。</item>
+        <item>110dB：摇滚音乐，小孩的哭声</item>
+        <item>120dB：刺耳声音的低限，雷声</item>
+        <item>130dB：30 米内的喷气式发动机声</item>
+        <item>180dB：航天飞机发射</item>
+    </string-array>
+
+    <string name="back">Back</string>
+    <string name="right">Right</string>
+    <string name="long_title_test">LongTitleTestLongTitleTestLongTitleTest</string>
+    <string name="_50_db">50 dB</string>
+    <string name="todo">TODO</string>
+    <string name="to">～</string>
+    <string name="info">说明</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
